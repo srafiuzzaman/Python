@@ -9,7 +9,7 @@ from hangman_art import logo
 from hangman_art import stages
 
 # create clear screen function
-def clear_console():
+def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 # Using word_list from hangman_words.py
@@ -31,7 +31,7 @@ while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
     # clearing the screen
-    clear_console()
+    clear()
 
     # The user has entered a letter they've already guessed.
     if guess in display:
