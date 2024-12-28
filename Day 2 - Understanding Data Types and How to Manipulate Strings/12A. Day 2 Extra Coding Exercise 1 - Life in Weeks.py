@@ -1,5 +1,6 @@
 # Sahad Rafiuzzaman
-# Date: 12/23/2023
+# Date: 12/25/2024
+
 # Create a program using maths and f-Strings that tells us how many weeks we have left, if we live until 90 years old.
 # It will take your current age as the input and output a message with our time left in this format:
 # You have x weeks left.
@@ -8,7 +9,7 @@
 
 # Given input: 56
 
-age = input()
+age = input("What is your age: ")
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 years = 90 - int(age)

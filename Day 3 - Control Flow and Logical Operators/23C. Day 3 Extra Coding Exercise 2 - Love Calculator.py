@@ -1,8 +1,7 @@
 # Sahad Rafiuzzaman
-# Date: 12/24/2023
-# 💪 This is a difficult challenge! 💪
-# You are going to write a program that tests the compatibility between two people.
+# Date: 12/26/2024
 
+# You are going to write a program that tests the compatibility between two people.
 # To work out the love score between two people:
 # Take both people's names and check for the number of times the letters in the word TRUE occurs.
 # Then check for the number of times the letters in the word LOVE occurs.
@@ -38,8 +37,8 @@
 # lower() count()
 
 print("The Love Calculator is calculating your score...")
-name1 = input("What is your name? ") # What is your name?
-name2 = input("What is their name? ") # What is their name?
+name1 = input("What is your name? ")        # What is your name?
+name2 = input("What is their name? ")       # What is their name?
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 
@@ -61,7 +60,7 @@ second_digit = L + O + V + E
 score = str(first_digit) + str(second_digit)
 if int(score) < 10 or int(score) > 90:
     print(f"Your score is {score}, you go together like coke and mentos.")
-elif int(score) > 40 and int(score) < 50:
+elif 40 <= score <= 50:
     print(f"Your score is {score}, you are alright together.")
 else:
     print(f"Your score is {score}.")
