@@ -1,5 +1,5 @@
 # Sahad Rafiuzzaman
-# 12/28/2023
+# Date: 12/28/2023
 # While Loops
 
 number_of_hurdles = 6
